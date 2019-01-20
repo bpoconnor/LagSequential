@@ -1,0 +1,21 @@
+Package: LagSequential
+Type: Package
+Title: Functions for analyzing lag-sequential categorical data
+Version: 0.1.0
+Date: 2019-01-20
+Author: Zakary A. Draper & Brian P. O'Connor 
+Maintainer: Brian P. O'Connor  <brian.oconnor@ubc.ca>
+Depends: R(>= 1.9.0)
+LazyLoad: yes
+LazyData: yes
+Description: This package provides functions for conducting lag sequential analyses. 
+        The programs read a stream of codes, or a frequency transition matrix, and 
+        produce a variety of lag sequential statistics, including transitional 
+        frequencies, expected transitional frequencies, transitional probabilities, 
+        z values, adjusted residuals, Yule's Q values, likelihood ratio tests of 
+        stationarity across time and homogeneity across groups or segments, transformed 
+        kappas for unidirectional dependence, bidirectional dependence, parallel 
+        and nonparallel dominance, and significance levels based on both parametric 
+        and randomization tests.
+License: GPL (>= 2)
+NeedsCompilation: no
